@@ -1,0 +1,13 @@
+---
+import Dropdown from './Dropdown'
+---
+
+<header class="fixed z-20 w-full text-sm py-3 bg-black/20 backdrop-blur">
+  <nav class=" w-full px-4 flex justify-between items-center" aria-label="Global">
+    <a class="font-semibold dark:text-white flex items-center" href="#">
+      <img src="/svg/light-logo.svg" alt="Fabian Herrera" class='w-10'>
+      <p class='text-white text-lg'>abian Herrera</p>
+    </a>
+    <Dropdown client:visible />
+  </nav>
+</header>
