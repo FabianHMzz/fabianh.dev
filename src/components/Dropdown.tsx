@@ -30,7 +30,7 @@ export default function Version() {
         <DropdownItem key='version1'>
           <Link
             isExternal
-            href='https://v1.fabianhmz.dev/'
+            href='https://v1.fabianh.dev/'
             showAnchorIcon
             className='text-black dark:text-white w-full'
           >
